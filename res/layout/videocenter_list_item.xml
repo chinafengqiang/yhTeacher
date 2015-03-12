@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="#FFFFFF">
+    <ImageView android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/image"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="课程名称"
+        android:textColor="#2292DD"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/image"
+        android:id="@+id/videoName"
+        android:layout_marginTop="6dp"/>
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分类 "
+        android:textColor="#808080"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/videoName"
+        android:layout_toRightOf="@id/image"
+        android:id="@+id/videoCategory"/>
+    
+     <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主讲人"
+        android:textColor="#808080"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/videoCategory"
+        android:layout_toRightOf="@id/image"
+        android:gravity="center"
+        android:id="@+id/lectuer"/>
+     
+      <ImageView android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:background="@drawable/triangle"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:layout_marginRight="10dp"/>
+</RelativeLayout>

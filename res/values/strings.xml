@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="app_name">育恒教师</string>
+    <string name="tv_user">用户名：</string>
+    <string name="tv_pwd">密码：</string>
+    <string name="education_schedule_title">教学安排</string>
+    <string name="education_resource_title">教学资料</string>
+    <string name="education_resource_category">教学资料分类</string>
+    <string name="education_resource_content">教学资料分类内容</string>
+    <string name="lesson_resource_title">课堂资料</string>
+    <string name="homework_title">作业测试</string>
+    <string name="student_manager_title">学生管理</string>
+    <string name="more_title">更多应用</string>
+    <string name="lessons_table">课程表</string>
+    <string name="progress_table">进度表</string>
+    <string name="education_notification">教学通知</string>
+    <string name="education_info">教辅资料</string>
+    <string name="addition_info">补充资料</string>
+    <string name="local_addition_info">本地补充</string>
+    <string name="class_bs">课堂板书</string>
+    <string name="class_info">课堂资料</string>
+    <string name="class_video">课堂录像</string>
+    <string name="work_audit">作业批改</string>
+    <string name="work_addition">作业补充</string>
+    <string name="work_summary">作业统计</string>
+    <string name="online_answer">在线答疑</string>
+    <string name="student_summary">学生统计</string>
+    <string name="notification_toast">通知公告</string>
+    <string name="kcb">课程表</string>
+    <string name="jdb">进度表</string>
+    <string name="jxtz">教学通知</string>
+    <string name="hidden_menu">隐藏菜单</string>
+    <string name="return_page">返回主页</string>
+    <string name="inform_title">通知</string>
+    <string name="inform_show_advice">回复</string>
+    <string name="inform_back">返回</string>
+    <string name="answerTitle">答案选项：</string>
+    <string name="answerAnalysisTitle">正确率解析：</string>
+    <string name="parseError">试卷加载失败，可能文件已经被破坏！</string>
+    <string name="subjectIndex">第&#160;%1$s&#160;题：    </string>
+     <string name="titleTag">考卷：%1$s</string>
+</resources>

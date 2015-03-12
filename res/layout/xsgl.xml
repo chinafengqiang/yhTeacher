@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_bar3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#51bdfa"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b6e4fd" >
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:background="#f0fafe"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/button1"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/jxap_btn"
+                    android:drawableLeft="@drawable/jdb2"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:paddingLeft="100dp"
+                    android:text="@string/online_answer"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="43dp"
+                    android:background="@drawable/jxap_btn"
+                    android:drawableLeft="@drawable/kcb2"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:paddingLeft="100dp"
+                    android:text="@string/student_summary"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#c6ccce"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f5fdff" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

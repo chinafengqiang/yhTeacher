@@ -1,0 +1,86 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar" />
+    <style name="NavigationSytle">
+        android:background="@drawable/navigation_bg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25sp"
+    </style>
+    
+     <style name="style_login_btn">
+        <item name="android:background">@drawable/touch_head_btn</item>
+        <item name="android:textColor">#fffff5</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="inform_item_image_style">
+        <item name="android:background">#000000</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    
+    <style name="informTextStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="listContentStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    
+    <style name="informTimeStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="inform_head_title">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="showContentStyle">
+        <item name="android:textColor">#444444</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="textStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+   <style name="Animation.controlPW"  parent="@android:style/Animation">
+         <item name="android:windowEnterAnimation">@anim/playingmenubg_in</item>
+         <item name="android:windowExitAnimation">@anim/playingmenubg_out1</item>
+    </style>
+    <style name="Animation.Popup" parent="@android:style/Animation">
+        <item name="android:windowExitAnimation">@anim/popup_out</item>
+    </style>
+    <style name="Animation.UpBanner" parent="@android:style/Animation">
+        <item name="android:windowExitAnimation">@anim/upbanner_out</item>
+    </style>
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@drawable/header_shape</item>
+    </style>
+    <style name="FileBrowserTitle" parent="@android:style/Theme">
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+    </style>
+        <style name="Animation.SlideInOut" parent="@android:style/Animation">
+        <item name="android:windowExitAnimation">@anim/playingmenu_out</item>
+    </style>
+    <style name="Animation.AlphaIn" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/playingmenubg_in</item>
+        <item name="android:windowExitAnimation">@anim/playingmenubg_out</item>
+    </style>
+    <style name="Animation.batteryInfoPW"  parent="@android:style/Animation">
+         <item name="android:windowEnterAnimation">@anim/playingmenubg_in</item>
+         <item name="android:windowExitAnimation">@anim/playingmenubg_out</item>
+    </style>
+    
+</resources>

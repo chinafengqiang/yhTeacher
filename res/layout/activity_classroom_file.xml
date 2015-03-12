@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <com.yhlearningclient.common.SlidingMenuView
+        android:id="@+id/sliding_menu_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+       <LinearLayout 
+        	android:id="@+id/sliding_tab"
+        	android:background="#f6f7f7"
+        	android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:padding="10dip"
+        	android:layout_height="fill_parent">
+        	
+             <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+				
+                <Button
+	                android:id="@+id/btnhidden"
+	                android:text="@string/hidden_menu"
+	                android:onClick="hideMenu"
+	                android:layout_marginTop="10dp"
+	                android:background="@drawable/jxap_btn"
+	                android:layout_width="85dp"
+	                android:textSize="15sp" 
+	                android:gravity="center_vertical|center_horizontal|left"
+	        		android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:onClick="changeTab2"
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/button1"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/jxap_btn"
+                    android:drawableLeft="@drawable/jdb2"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:paddingLeft="10dp"
+                    android:textColor="#444444"
+                    android:text="@string/class_info"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:onClick="changeTab3"
+                    android:layout_width="142dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="63dp"
+                    android:background="@drawable/jxap_btn"
+                    android:drawableLeft="@drawable/kcb2"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical|center_horizontal|left"
+                    android:paddingLeft="10dp"
+                    android:layout_below="@+id/btnhidden"
+                    android:text="@string/class_bs"
+                    android:textColor="#444444"
+                    android:textSize="16sp" />
+
+                
+                <Button
+	                android:id="@+id/btnReturnPage"
+	                android:layout_marginTop="580dp"
+	                android:text="@string/return_page"
+	                android:background="@drawable/jxap_btn"
+	                android:layout_width="85dp"
+	                android:textSize="15sp" 
+	                android:gravity="center_vertical|center_horizontal|left"
+	        		android:layout_height="wrap_content"/>
+                
+            </RelativeLayout>
+    	</LinearLayout>
+    	
+        <FrameLayout 
+        	android:id="@+id/sliding_body"
+            android:layout_width="fill_parent"
+        	android:layout_height="fill_parent">
+    	</FrameLayout>
+        
+        
+    </com.yhlearningclient.common.SlidingMenuView>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/action_bar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:background="#f5fdff" >
+
+<ImageView
+    android:id="@+id/left_bar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_weight="0.20"
+    android:contentDescription="@null"
+    android:src="@drawable/back" />
+
+<TextView
+    android:id="@+id/title"
+    android:layout_width="0dp"
+    android:layout_height="115dp"
+    android:layout_weight="0.80"
+    android:gravity="center"
+    android:text="@string/lesson_resource_title"
+    android:textColor="#000000"
+    android:textSize="30sp" />
+
+</LinearLayout>
